@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Net Salary Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Net Salary Calculator</h1>
+    <label for="salaryInput">Enter the Gross Salary:</label>
+    <input type="text" id="salaryInput">
+    
+    <label for="deductions">Enter the deductions:</label>
+    <input type="text" id="deductions">
+    <button onclick="calculateNetSalary()">Calculate Net Pay</button>
+    <h2>Your takehome is : <span id="netSalary"></span></h2>
+
+    <script src="salary.js"></script>
+</body>
+</html>
