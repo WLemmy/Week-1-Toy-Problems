@@ -5,7 +5,7 @@ const speedlimit = () => {
   const demeritPoints = Math.floor((parseSpeed - limit) / 5);
 
   switch (true) {
-    case demeritPoints === 0:
+    case demeritPoints ===0:
       document.getElementById("resultValue").textContent = "OK";
       break;
     case demeritPoints <= 12 && demeritPoints >= 0:
