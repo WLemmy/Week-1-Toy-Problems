@@ -1,4 +1,6 @@
+//This code snippet defines two JavaScript functions: calculateNetSalary and taxCalc.
 const calculateNetSalary = () => {
+    //This line defines a function named calculateNetSalary using an arrow function syntax. I
     const grossSalary = parseFloat(document.getElementById("salaryInput").value);
     const deductions = parseFloat(document.getElementById("deductions").value);
     const taxRate = taxCalc(); 
@@ -11,7 +13,7 @@ const calculateNetSalary = () => {
 
 const taxCalc = () => {
     const gross = parseFloat(document.getElementById("salaryInput").value);
-   
+   //The function uses a switch statement to determine the tax rate based on the gross salary value (gross).
     switch (true) {
         case gross <= 13000:
             return 0.01;
